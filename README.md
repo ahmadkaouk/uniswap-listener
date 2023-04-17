@@ -25,7 +25,7 @@ This is a simple Rust program that listens for Swap events on the WETH/USDC Unis
 
     ```sh
     git clone https://github.com/ahmadkaouk/uniswap-listener.git
-    cd ethereum-uniswap-event-listener
+    cd uniswap-listener
     ```
 
 2. Compile the Rust program:
