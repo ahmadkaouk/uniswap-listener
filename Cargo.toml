@@ -1,0 +1,12 @@
+[package]
+name        = "uniswap-listener"
+description = "A simple uniswap v3 USDC/WETH monitor"
+authors     = ["Ahmad Kaouk <ahmadkaouk.93@gmail.com"]
+version     = "0.1.0"
+edition     = "2021"
+
+
+[dependencies]
+anyhow = "1.0.70"
+ethers = { version = "2.0.3", features = ["ws"] }
+tokio  = { version = "1.27.0", features = ["full"] }
