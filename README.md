@@ -37,7 +37,7 @@ This is a simple Rust program that listens for Swap events on the WETH/USDC Unis
 3. Run the program with your Infura API key as a command-line argument:
 
     ```sh
-    ./target/release/ethereum-uniswap-event-listener <infura_api_key>
+    ./target/release/uniswap-listener <infura_api_key>
     ```
 
     Replace <infura_api_key> with your actual Infura API key.
